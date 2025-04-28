@@ -1,0 +1,549 @@
+body{
+    margin: 0;
+}
+.body .main{
+    background-image: url(background.jpg);
+    width: 1518px;
+    height: 715px;
+}
+ 
+.body  .main .header{
+    width: 100%;
+    height:80px;
+    padding-left: 20px;
+    position: sticky;
+    top: 0;
+}
+
+
+.body .main .header img{
+    float: left;
+    margin:20px 0 0 10px;
+    height: 37px;
+    
+}
+.body .main .header img:hover{
+    cursor: pointer;
+    
+}
+.body .main .header .img:hover{
+    padding: 2px;
+    border-radius: 37px;
+    background-color: #f1eeee;
+}
+
+.body .main .header .buttons{
+    height: 50px;
+    width: 200px;
+    float: right;
+    padding: 5px;
+    margin:10px 35px 0 0;
+}
+.body .main .header .buttons .login{
+    height: 25px;
+    width: 55px;
+    padding: 6px;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    color: black;
+    float: left;
+    margin:5px 10px 5px 10px;
+    text-align: center;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    align-items: center;
+}
+
+.body .main .header .buttons .signup{
+    height: 28px;
+    width: 60px;
+    padding: 6px;
+    border-radius: 25px;
+    background-color: black;
+    color:white;
+    margin:5px 10px 5px 90px;
+    text-align: center;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    align-items: center;
+}
+
+.body .main .header span{
+
+    display: none;
+}
+
+
+.body .main .header .buttons .login:hover{
+    cursor: pointer;
+    background-color: #f1eeee;
+}
+.body .main .header .buttons .signup:hover{
+    cursor: pointer;
+    background-color: rgb(33, 32, 32);
+}
+.body .main .sticky{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height:80px;
+    padding-left: 20px;
+    border:ridge 1px #e2dcdc ;
+}
+.body .main .sticky img{
+    float: left;
+    margin:20px 0 0 10px;
+    height: 37px;
+    
+}
+.body .main .sticky  img:hover{
+    cursor: pointer;
+    
+}
+.body .main .sticky .img:hover{
+    padding: 2px;
+    border-radius: 37px;
+    background-color: #f1eeee;
+}
+.body .main .sticky span{
+    display: none;
+    margin-left: 20px;
+    float: left;
+    height: 21px;
+    border-radius: 36px;
+    padding: 10px 16px 5px 16px;
+    align-self: center;
+    cursor: pointer;
+    line-height: 16px;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    background-color: #000000;
+    margin-top: 15px;
+
+} 
+.body .main .sticky i{
+    margin-right: 6px;
+    margin-left: 6px;
+}
+.body .main .sticky span:hover{
+    background-color: rgb(33, 32, 32);;
+}
+.body .main .sticky .buttons{
+    height: 50px;
+    width: 200px;
+    float: right;
+    padding: 5px;
+    margin:10px 35px 0 0;
+}
+.body .main .sticky .buttons .login{
+    height: 25px;
+    width: 55px;
+    padding: 6px;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    color: black;
+    float: left;
+    margin:5px 10px 5px 10px;
+    text-align: center;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    align-items: center;
+}
+
+.body .main .sticky .buttons .signup{
+    height: 28px;
+    width: 60px;
+    padding: 6px;
+    border-radius: 25px;
+    background-color: black;
+    color:white;
+    margin:5px 10px 5px 90px;
+    text-align: center;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    align-items: center;
+}
+
+
+
+.body .main .sticky .buttons .login:hover{
+    cursor: pointer;
+    background-color: #f1eeee;
+}
+.body .main .sticky .buttons .signup:hover{
+    cursor: pointer;
+    background-color: rgb(33, 32, 32);
+}
+.body .main .heading{
+    width: 100%;
+    height: 60px;
+    margin: 180px 0 0 50px;
+    font-size: 26px;
+    font-weight: 400px;
+    font-family: UberMove, sans-serif;
+}
+.body .main .input{
+    height: 50px;
+    width: 900px;
+    margin:35px 0 0 60px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.body .main .input a{
+    color: #000000;
+}
+.body .main .input #address{
+    height: 40px;
+    width: 500px;
+    background-color: #FFFFFF;
+    padding: 7px;
+    float: left;
+}
+.body .main .input #address img{
+    height: 20px;
+    width: 20px;
+    float: left;
+    margin: 7px 0 0 7px;
+}
+.body .main .input #address input{
+    border: none;
+    height: 40px;
+    width: 400px;
+    outline: none;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    color: #6f6a6a;
+    padding-left: 5px;
+}
+.body .main .input #address .label{
+    float: right;
+    margin:10px 15px 0 0;
+    color: #6f6a6a;
+    font-family: UberMove, sans-serif;
+    font-size: 15px;
+    display: none;
+}
+.body .main .input #address .label:hover{
+    cursor: pointer;
+}
+.body .main .input .time{
+    height: 45px;
+    width: 160px;
+    background-color: #FFFFFF;
+    padding: 3px;
+    float: left;
+    margin-left: 10px;
+}
+.body .main .input .time #timer{
+    float: right;
+    width: 130px;
+    margin-top: 5px;
+}
+.body .main .input .time:hover{
+    cursor: pointer;
+}
+.body .main .input .time select{
+    border: none;
+    height: 30px;
+    background-color: #FFFFFF;
+    font-family: UberMove, sans-serif;
+    font-size: 17px;
+    font-weight: 25px;
+   
+    float: left;
+
+}
+.body .main .input .time select:hover{
+    cursor: pointer;
+}
+.body .main .input .time select:focus{
+    outline: none;
+}
+.body .main .input .submit{
+    height: 38px;
+    width: 120px;
+    padding: 17px 10px 0 5px;
+    margin-left: 10px;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    font-family: UberMove, sans-serif;
+    font-size: 18px;
+    font-weight: 40px;
+    float: left;
+    text-align: center;
+    
+}
+.main .input .submit:hover{
+    cursor: pointer;
+    background-color:rgb(48, 47, 47);
+}
+.public{
+    margin: 80px 0 0 0;
+    padding: 5px;
+}
+.public .row{
+
+    width: 100%;
+    height: 350px;
+    margin-left: 0;
+}
+.public .row:hover{
+    cursor: pointer;
+}
+.public .row .row1{
+    height: 300px;
+    width: 480px;
+    float: left;
+    padding-right:20px;
+}
+.public .row .row1 img{
+    height:270px ;
+    width: 480px;
+   
+}
+.public .row .row1 .l1{
+    margin-top: 5px;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: UberMove, sans-serif;
+    height: 10px;
+}
+.public .row .row1 .l2{
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 17px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000000;
+    margin-top: 0px;
+    text-decoration: underline;
+}
+.location {
+   
+   
+    margin: 150px 35px 0 35px;
+}
+.location .head h4{
+    font-family: UberMove, sans-serif;
+    float:left;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 0;
+}
+.location .head a{
+    text-decoration: underline;
+    line-height: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    float: right;
+    color: black;
+    
+}
+.location img{
+    height: 350px;
+    width: 1450px;
+    
+}
+.location .list{
+    width: 20%;
+    margin:15px 25px 0 30px;
+    color: rgb(16, 16, 16);
+    font-weight: 500px;
+    font-size: 17px;
+    font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    float: left;
+}
+.location .list li{
+    list-style-type: none;
+}
+.location .list li:hover{
+    cursor: pointer;
+}
+.part2{
+    margin: 400px 35px 0 35px;
+    width: 95%;
+    height: 500px;
+    
+
+}
+.part2 .head{
+    width: 100%;
+    height: 80px;
+}
+.part2 .head h4{
+    float:left;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 0;
+    font-family: UberMove, sans-serif;
+}
+.part2 .head a{
+    text-decoration: underline;
+    line-height: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    float: right;
+    color: black;
+    
+}
+.part2 .countries{
+    margin-top: 0px;
+    width: 100%;
+    height: 500px;
+    padding: 0px;
+    float: left;
+    padding-top: 10px;
+}
+.part2 .countries .list{
+    width: 320px;
+    color: rgb(16, 16, 16);
+    font-weight: 380px;
+    font-size: 17px;
+    font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    float: left;
+}
+.part2 .countries .list li{
+    list-style-type: none;
+}
+.part2 .countries .list li:hover{
+    cursor: pointer;
+}
+hr{
+    width: 100%;
+    height: 0.1px;
+    background-color: #fbf7f7;
+}
+.part3{
+    width: 80%;
+    border-style: ridge;
+    border-width: 0 0 1px 0;
+    
+    height: 400px;
+    margin: 20px 80px 0 150px;
+}
+.part3 .logo{
+    width:50%;
+    height: 100%;
+    float: left;
+    padding-top: 30px;
+}
+.part3 .logo .top{
+    width: 30%;
+    padding: 10px;
+    height: 60px;
+    margin-top:10px;
+}
+.part3 .logo .top img{
+    height: 100%;
+    width: 100%;
+}
+.part3 .bottom{
+    width: 60%;
+    height: 40px;
+    margin:200px 30px 50px 25px;
+}
+.part3 .bottom img{
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 10px;
+}
+.part3 .bottom img:hover{
+    cursor: pointer;
+}
+.part3 .links{
+    width: 50%;
+    height: 370px;
+    float: right;
+    margin-top: 30px;
+}
+.part3 .links .column{
+    width: 45%;
+    height: 100%;
+    float: left;
+    margin: 25px 10px 10px 5px;
+}
+.part3 .links .column li{
+    list-style-type: none;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #000000;
+    line-height: 24px;
+}
+.part3 .links .column li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.lasts{
+    margin: 30px 80px 0 150px;
+    width: 80%;
+    height: 100px;
+}
+
+.lasts .signs{
+    width: 150px;
+    height: 50px;
+    float: left;
+}
+.lasts .signs i{
+   font-size: 20px;
+    margin-right: 20px;
+}
+.lasts .signs i:hover{
+    cursor: pointer;
+}
+.lasts .lists{
+    height: 70px;
+    width: 80%;
+    float: right;
+}
+.lasts .lists .line1{
+    width: 70%;
+    height: 20px;
+    margin-left: 300px;
+}
+
+.lasts .lists .line1 .members{
+    float: left;
+    margin-right: 20px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    margin-left: 30px;
+    color: #000000;
+}
+.lasts .lists .line1 .members:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.lasts .lists .dummy{
+    width: 100%;
+    height: 30px;
+    margin: 20px 0 0 65px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: #000000;
+}
+
+.lasts .lists .dummy .lines{
+    float: left;
+    padding-right: 50px;
+}
+.lasts .lists .dummy .right{
+    float: right;
+}

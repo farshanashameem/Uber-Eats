@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber Eats | Food & Grocery Delivery</title>
+    <link rel="icon" href="ub.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+    <div class="body">
+
+    
+        <div class="main" id="myHeader">
+            <header class=" header">
+            
+                <img src="menu.png" alt="" class="img">
+                <img src="logo.png" alt="">
+                <span id="span"><i class="fa fa-map-marker"></i>Enter delivery address<i class="fa fa-angle-down"></i></span>
+
+                <div class="buttons">
+                    
+                    <div class="login">
+                        Log in
+                    </div>
+                    <div class="signup">
+                        Sign up
+                    </div>
+                </div>
+                
+            </header>
+            
+            <div class="heading">
+                <h1>Order delivery near you</h1>
+            </div>
+            <div class="input">
+                <div id="address">
+                    <img src="location.png" alt="">
+                    <input type="text" id="in" placeholder="enter delivery address" oninput="show()" area-label="enter delivery address">
+                    <span class="label" onclick="Clear()"> Clear</span>
+                </div>
+                <div class="time">
+                    <span><i class="fa fa-clock-o" aria-hidden="true" style="font-size: 25px; margin-top: 5px;"></i></span>
+                    <select  id="timer">
+                        
+                        <option value="Deliver_now">Deliver now</option>
+                        <option value="">Schedule for later</option>
+                    </select>
+                </div>
+                <div class="submit">
+                        Search here
+                </div>
+                <br><br><br> <br>Or <a href="">Sign In</a>
+                <script>
+                    function Clear(){
+                        document.getElementById('in').value = '';
+                    }
+                    function show(){
+                        document.querySelector('.label').style.display = "inline";
+                    }
+                </script>
+            </div>
+        </div>
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var header = document.querySelector(".header");
+            var sticky = header.offsetHeight;
+            var div=document.getElementById("span");
+            function myFunction() {
+              if (window.pageYOffset >sticky) {
+                header.classList.add("sticky");
+                header.classList.remove("header");
+                div.style.display = "block";
+                
+              } else {
+                header.classList.remove("sticky");
+                header.classList.add("header");
+              }
+            }
+            </script>
+
+        <section class="public">
+            <div class="row ">
+                <div class="row1">
+                    <img src="employees.jpg" alt="">
+                    <p class="l1">Feed your employees</p>
+                    <p class="l2">Create a business account</p>
+                </div>
+
+                <div class=" row1">
+                    <img src="restaurents.jpg" alt="">
+                    <p class="l1">Your restaurant,delivered</p>
+                    <p class="l2">Add your restaurant</p>
+                </div>
+
+                <div class=" row1">
+                    <img src="employees.jpg" alt="">
+                    <p class="l1">Deliver with Uber Eats</p>
+                    <p class="l2">Sign up to deliver</p>
+                </div>
+                
+            </div>
+        </section>
+    
+
+        <section>
+            <div class="location">
+                <div class="head">
+                    <h4>Cities near me</h4>
+                <a href="">View all 500+ cities</a> 
+                </div> 
+                <img src="map.jpg" alt="">
+                <div class="list">
+                    <li>Akron <br></li><br>
+                    <li>Albuquerque</li><br>
+                    <li>Bridgeport</li><br>
+                    <li>Concord</li><br>
+                    <li>Dayton</li><br>
+                    <li>El Paso</li><br>
+    
+                </div>
+                <div class="list">
+                    <li>Hartford</li><br>
+                    <li>Houston</li><br>
+                    <li>Indianapolis</li><br>
+                    <li>McAllen</li><br>
+                    <li>Mesa</li><br>
+                    <li>Milwaukee</li><br>
+    
+                </div>
+                <div class="list">
+                    <li>Nashville</li><br>
+                    <li>New Orleans</li> <br>
+                    <li>Oklahoma City</li><br>
+                    <li>Omaha<br> </li><br>
+                    <li>Orlando</li><br>
+                    <li>Palm Bay</li><br>
+    
+                </div>
+                <div class="list">
+                    <li>Providence</li><br>
+                    <li>Queens</li><br>
+                    <li>San Antonio</li><br>
+                    <li>Stony Brook</li><br>
+                    <li>Tucson<br> </li><br>
+                    <li>West Hollywood<br> </li><br>
+    
+                </div>
+            </div>
+            <br> <br><br> <br>
+        </section>
+
+        <section class="part2">
+            
+                <div class="head">
+                    <h4>Countries with Uber Eats</h4>
+                    <a href="">View all countries</a> 
+                </div>
+                <div class="countries">
+                <div class="list">
+                    <li>Australia</li> <br>
+                    <li>Belgium</li> <br>
+                    <li>Canada</li><br>
+                    <li>Chile</li><br>
+                    <li>Costa Rica</li><br>
+                    <li>Dominican Republic</li><br>
+                    <li>Ecuador</li><br>
+                    <li>El Salvador</li><br>
+    
+                </div>
+                <div class="list">
+                    <li>France</li><br>
+                    <li>Germany</li><br>
+                    <li>Guatemala</li><br>
+                    <li>Ireland</li><br>
+                    <li>Italy</li><br>
+                    <li>Japan</li><br>
+                    <li>Kenya</li><br>
+                    <li>Luxembourg</li><br>
+    
+                </div>
+                <div class="list">
+                    <li>Mexico</li><br>
+                    <li>Netherlands</li><br>
+                    <li>New Zealand</li><br>
+                    <li>Panama</li><br>
+                    <li>Poland</li><br>
+                    <li>Portugal</li><br>
+                    <li>South Africa</li><br>
+                    <li>Spain</li><br>
+    
+                </div>
+                <div class="list">
+                    <li>Sri Lanka</li><br>
+                    <li>Sweden</li><br>
+                    <li>Switzerland</li> <br>
+                    <li>Taiwan (ROC)</li><br>
+                    <li>United Kingdom</li><br>
+                    <li>United States</li><br>
+    
+                </div>
+            </div>
+        </section>
+         <hr>   
+
+         <section >
+            <div class="part3" >
+                <div class="logo">
+                    <div class="top">
+                        <img src="logo.png" alt="">
+                    </div>
+                    <div class="bottom">
+                        <img src="appstore.png" alt="">
+                        <img src="google_play.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="links">
+                    <div class="column">
+                       <li> Get it on Google Play</li><br>
+                       <li>Get Help</li><br>
+                       <li>Buy gift cards</li><br>
+                       <li>Add your restaurant</li><br>
+                       <li>Sign up to deliver</li><br>
+                       <li>Create a business account</li><br>
+                       <li>Promotions</li><br><br>
+                    </div>
+                    <div class="column">
+                        <li> Restaurants near me</li><br>
+                        <li> View all cities</li><br>
+                        <li>View all countries</li><br>
+                        <li>Pickup near me</li><br>
+                        <li>About Uber Eats</li><br>
+                        <li>Shop groceries</li><br>
+                        <li><i class="fa fa-language"></i>English</li>
+                    </div>
+                </div>
+            </div>
+            <div class="lasts">
+                <div class="signs">
+                    <i class="fa fa-facebook-f"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+    
+                </div>
+                <div class="lists">
+                    <div class="line1">
+                        <div class="members" >
+                            <a>Privacy Policy</a>
+                        </div>
+                            
+                        <div class="members" >
+                           <a>Terms</a> 
+                        </div>
+                        <div class="members" >
+                            <a>Pricing</a>
+                        </div>
+                        
+                        <div class="members" >
+                            <a>Do not sell or share my personal information</a><br>
+
+                        </div>
+                    </div>
+                        <div class="dummy">
+
+                        
+                            <div class="lines">
+                                
+                                This site is protected by reCAPTCHA and the Google <a>Privacy Policy</a> and <a>Terms of Service</a> apply.
+                            </div>
+                            <div class="right">
+                                © 2025 Uber Technologies Inc.
+                            </div>
+                        </div>
+                        
+                </div>
+            </div>
+            
+            
+
+         </section>
+    </div>
+   </body>
+</html>
